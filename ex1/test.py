@@ -31,5 +31,7 @@ plt.show()
 
 print 'Theta found by gradient descent:',theta_after[0],theta_after[1]
 
+print 'For population = 70,000, we predict a profit of $%f\n' %(np.dot(np.array([1,7]),theta_after)*1000)
+
 
 

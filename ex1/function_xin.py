@@ -17,3 +17,4 @@ def computeCost(x,y,theta):
     j=0
     j=np.mean(np.array(np.dot(x,theta)-y)**2)/2
     return j
+
