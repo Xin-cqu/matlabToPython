@@ -14,7 +14,6 @@ def gradientDescent(x,y,theta,alpha,num_iters):
 
 def computeCost(x,y,theta):
     m=len(y)
-    j=0
     j=np.mean(np.array(np.dot(x,theta)-y)**2)/2
     return j
 

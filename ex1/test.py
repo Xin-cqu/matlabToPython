@@ -20,18 +20,28 @@ alpha=0.01
 j=function_xin.computeCost(x_add,y_add,theta)
 print 'here should be 32.073: ',j
 theta_after,J_history=function_xin.gradientDescent(x_add,y_add,theta,alpha,iterators)
-print
 #plt.figure()
+'''
 plt.plot(x_input,y_input,'rx')
 plt.ylabel('Profit in $10,000s')
 plt.xlabel('Population of City in 10,000s')
 plt.plot(x_input,np.dot(x_add,theta_after),'-')
 plt.legend('training data')
 plt.show()
-
+'''
 print 'Theta found by gradient descent:',theta_after[0],theta_after[1]
 
 print 'For population = 70,000, we predict a profit of $%f\n' %(np.dot(np.array([1,7]),theta_after)*1000)
 
+theta0_vals=np.arange(-10,10,0.2)
+theta1_vals=np.arange(-4,1,0.05)
+j_vals=np.zeros((len(theta0_vals), len(theta1_vals)))
+#print np.matrix([theta0_vals[1],theta1_vals[1]])
+#print theta1_vals[1]
 
+for i in range(len(theta0_vals)):
+    for j in range(len(theta1_vals)):
+        t=np.matrix([theta0_vals[i],theta1_vals[j]]).transpose()
+        j_vals[i,j]=function_xin.computeCost(x_add,y_add,t)
+j_vals=np.transpose(j_vals)
 
