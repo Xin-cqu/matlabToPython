@@ -6,7 +6,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
-            "pythonPath": "${config.python.pythonPath}",
+            "pythonPath": "/Users/xinwen/anaconda/bin/python3.5",
             "program": "${file}",
             "cwd": "${workspaceRoot}",
             "debugOptions": [

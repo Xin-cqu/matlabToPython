@@ -6,21 +6,21 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 __author__	function_xin.py	/^__author__ = 'xinwen'$/;"	kind:variable	line:1
 __author__	linear_regression.py	/^__author__ = 'xinwen'$/;"	kind:variable	line:1
-__author__	npy.py	/^__author__ = 'xinwen'$/;"	kind:variable	line:3
+__author__	npy.py	/^__author__ = 'xinwen'$/;"	kind:variable	line:1
 __author__	test.py	/^__author__ = 'xinwen'$/;"	kind:variable	line:1
 alpha	linear_regression.py	/^alpha=0.01$/;"	kind:variable	line:16
 alpha	test.py	/^alpha=0.01$/;"	kind:variable	line:16
 computeCost	function_xin.py	/^def computeCost(x,y,theta):$/;"	kind:function	line:15
 data	linear_regression.py	/^data=np.loadtxt('ex1data1.txt',delimiter=',').astype('float')$/;"	kind:variable	line:5
 data	test.py	/^data = np.loadtxt('ex1data1.txt', delimiter=',').astype('float')$/;"	kind:variable	line:5
-function_xin	npy.py	/^import function_xin$/;"	kind:namespace	line:1
+function_xin	npy.py	/^import function_xin$/;"	kind:namespace	line:3
 function_xin	test.py	/^import function_xin$/;"	kind:namespace	line:4
 function_xin.py	function_xin.py	1;"	kind:file	line:1
 gradientDescent	function_xin.py	/^def gradientDescent(x,y,theta,alpha,num_iters):$/;"	kind:function	line:5
 iterators	linear_regression.py	/^iterators=1500;$/;"	kind:variable	line:15
 iterators	test.py	/^iterators = 1500$/;"	kind:variable	line:15
 j	test.py	/^j=function_xin.computeCost(x_add,y_add,theta)$/;"	kind:variable	line:20
-j_vals	npy.py	/^j_vals=np.zeros((len(theta0_vals), len(theta1_vals)))$/;"	kind:variable	line:7
+j_vals	npy.py	/^j_vals = np.zeros((len(theta0_vals), len(theta1_vals)))$/;"	kind:variable	line:6
 j_vals	test.py	/^j_vals=np.transpose(j_vals)$/;"	kind:variable	line:46
 j_vals	test.py	/^j_vals=np.zeros((len(theta0_vals), len(theta1_vals)))$/;"	kind:variable	line:38
 linear_regression.py	linear_regression.py	1;"	kind:file	line:1
@@ -32,20 +32,20 @@ matplotlib	linear_regression.py	/^import matplotlib.pyplot as plt$/;"	kind:names
 matplotlib	test.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
 np	function_xin.py	/^import numpy as np$/;"	kind:namespace	line:2
 np	linear_regression.py	/^import numpy as np$/;"	kind:namespace	line:2
-np	npy.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	npy.py	/^import numpy as np$/;"	kind:namespace	line:2
 np	test.py	/^import numpy as np$/;"	kind:namespace	line:2
 npy.py	npy.py	1;"	kind:file	line:1
 plt	linear_regression.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
 plt	test.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
-t	npy.py	/^        t=np.matrix[theta0_vals(i),theta1_vals(j)]$/;"	kind:variable	line:10
+t	npy.py	/^        t=np.matrix[theta0_vals(i), theta1_vals(j)]$/;"	kind:variable	line:9
 t	test.py	/^        t=np.matrix([theta0_vals[i],theta1_vals[j]]).transpose()$/;"	kind:variable	line:44
 test.py	test.py	1;"	kind:file	line:1
 tf	linear_regression.py	/^import tensorflow as tf$/;"	kind:namespace	line:4
 theta	linear_regression.py	/^theta=np.zeros((2,1)).astype('float')$/;"	kind:variable	line:14
 theta	test.py	/^theta=np.zeros((2,1)).astype('float')$/;"	kind:variable	line:14
-theta0_vals	npy.py	/^theta0_vals=np.arange(-10,10,0.2)$/;"	kind:variable	line:5
+theta0_vals	npy.py	/^theta0_vals=np.arange(-10,10,0.2)$/;"	kind:variable	line:4
 theta0_vals	test.py	/^theta0_vals=np.arange(-10,10,0.2)$/;"	kind:variable	line:36
-theta1_vals	npy.py	/^theta1_vals=np.arange(-4,1,0.05)$/;"	kind:variable	line:6
+theta1_vals	npy.py	/^theta1_vals=np.arange(-4,1,0.05)$/;"	kind:variable	line:5
 theta1_vals	test.py	/^theta1_vals=np.arange(-4,1,0.05)$/;"	kind:variable	line:37
 x_add	linear_regression.py	/^x_add=np.matrix([np.reshape(m_ones,m),np.reshape(x_input,len(x_input))]).transpose()$/;"	kind:variable	line:12
 x_add	test.py	/^x_add=np.matrix([np.reshape(m_ones,m),np.reshape(x_input,len(x_input))]).transpose()$/;"	kind:variable	line:12
